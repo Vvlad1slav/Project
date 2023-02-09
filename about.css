@@ -1,0 +1,133 @@
+.layout {
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.about-layout {
+    width: 100%;
+    line-height: 2;
+
+}
+.page-sidebar {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 50px;
+    width: 300px;
+
+
+}
+.page-sidebar__nav {
+    line-height: 2.8;
+    padding: 10px 20px 0px 20px;
+    background-color: #fffdfd;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 8px 0 #2e2c2c1f;
+    width: 300px;
+
+
+}
+.sidebar-nav__item a:hover,
+.sidebar-nav__list .nav-item__active,
+.bread-li__link a:hover {
+    color: #4e7df1;
+}
+
+.sidebar-nav__list {
+    font-weight: 500;
+}
+
+.help-email a {
+    text-decoration: none;
+    color: #5d7d9c;
+}
+.page-sidebar__help {
+    box-shadow: 0 3px 8px 0 #2e2c2c1f;
+
+}
+.sidebar-help {
+    border: 1px solid #e8e8e8;
+    padding: 16px;
+    background-color: #fffdfd;
+    line-height: 1.5;
+}
+.help-title {
+    font-weight: 500;
+    font-size: 22px;
+    border: 1px solid #e8e8e8;
+    background-color: #f5edf5;
+    padding:16px 20px 16px 20px;
+
+}
+.help-phone {
+    font-size: 19px;
+}
+.help-phone__text {
+    font-size: 12px;
+    color: gray;
+}
+.help-email {
+    margin-bottom: 16px;
+}
+.help-share {
+    display: flex;
+    margin: 16px 0;
+    gap: 10px;
+}
+
+.help-social {
+    margin-top: 16px;
+    gap: 10px;
+    display: flex;
+
+}
+.bread {
+    margin: 5px 0 15px 0;
+    font-size: 14px;
+}
+
+.bread-wrap,
+.bread-li {
+    display: flex;
+    align-items: center;
+}
+
+.bread-li__trait {
+    margin: 0 12px;
+    font-size: 12px;
+    color: #af9e9e;
+}
+
+.nav-border {
+    border-top: 1px solid rgb(224, 209, 209);
+
+}
+
+.sidebar-nav__item a,
+.bread-li__link a {
+    text-decoration: none;
+    color: black;
+    transition: all .1s ease;
+
+}
+.page-content__head h1 {
+    color:#333e48;
+    font-size: 30px;
+
+}
+.page-content__head {
+width: 100%;
+border-bottom: 1px solid #e7eaf3;
+
+}
+.page-content__body .page-content-list__products p{
+    display: flex;
+    align-items: center;
+    
+}
+.page-content__list {
+    margin-left: 10px;
+}
+
